@@ -1,0 +1,23 @@
+* {
+  font-family: sans-serif;
+}
+
+html, body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  margin: 20px;
+}
+
+#result {
+  width: 500px;
+  height: 280px;
+  background-image: url("005001000000137525.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: pointer;
+}
