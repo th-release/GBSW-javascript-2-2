@@ -1,0 +1,42 @@
+* {
+  font-family: sans-serif;
+}
+
+html, body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  text-align: center;
+}
+
+h1 {
+  font-size: 38px;
+  text-align: center;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+h2 {
+  margin: 20px 0 10px 0;
+  font-size: 36px;
+  text-align: center;
+}
+
+.form {
+  text-align: center;
+}
+
+.form > input {
+  margin-bottom: 10px;
+  width: 280px;
+  height: 30px;
+}
+
+.form > button {
+  width: 285px;
+  height: 40px;
+}
