@@ -1,0 +1,113 @@
+* {
+  font-family: sans-serif;
+}
+
+html, body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.page1On {
+  animation: page1On .25s forwards;
+}
+
+.page2On {
+  animation: page2On .25s forwards;
+}
+
+.page1Off {
+  animation: page1Off .25s forwards;
+}
+
+.page2Off {
+  animation: page2Off .25s forwards;
+}
+
+#page1 {
+  position: fixed;
+  left: 0;
+  top: 0;
+
+  width: 100vw;
+  height: 100vh;
+
+  background-color: white;
+}
+
+#page2 {
+  position: fixed;
+  left: 100%;
+  top: 0;
+
+  width: 100vw;
+  height: 100vh;
+  padding: 10%;
+  background-color: white;
+}
+
+#page2 h1 {
+  font-size: 32px;
+}
+
+h1 {
+  font-size: 48px;
+}
+
+.page1center {
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.page1center input {
+  width: 300px;
+  height: 40px;
+  font-size: 18px;
+  font-weight: 900;
+}
+
+#accent h1 {
+  font-size: 32px;
+}
+
+@keyframes page1On {
+  0% {
+    left: -100%;
+  }
+  100% {
+    left: 0%;
+  }
+}
+
+@keyframes page1Off {
+  0% {
+    left: 0%;
+  }
+
+  100% {
+    left: -100%;
+  }
+}
+
+@keyframes page2On{
+  0% {
+    left: 100%;
+  }
+
+  100% {
+    left: 0%;
+  }
+}
+
+@keyframes page2Off{
+  0% {
+    left: 0%;
+  }
+  100% {
+    left: 100%;
+  }
+}
