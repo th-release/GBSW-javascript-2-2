@@ -1,0 +1,7 @@
+body > img, button {
+  display: block;
+}
+
+button {
+  margin-top: 20px;
+}
